@@ -44,6 +44,32 @@ class Day1: PuzzleDay {
     }
     
     func Part2() -> String {
-        return "Day 1 Part 2: Not implemented yet."
+        let lines = input.split(separator: "\n")
+        
+        var leftNumbers: [Int] = []
+        var rightNumbers: [Int] = []
+        
+        var rightFrequency: [Int: Int] = [:]
+        
+        for line in lines {
+            let components = line.split { $0.isWhitespace }
+            if components.count >= 2 {
+                if let left = Int(components[0]), let right = Int(components[1]) {
+                    leftNumbers.append(left)
+                    rightNumbers.append(right)
+                }
+            }
+        }
+        
+        for number in rightNumbers {
+            rightFrequency[number, default: 0] += 1
+        }
+        
+        let similarityScore = leftNumbers.reduce(0) { (result, number) in
+            let count = rightFrequency[number] ?? 0
+            return result + (number * count)
+        }
+        
+        return "Day 1 Part 2: Similarity Score is \(similarityScore)"
     }
 }
