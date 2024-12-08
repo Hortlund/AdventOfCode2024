@@ -6,7 +6,6 @@
 //
 
 class Day1: PuzzleDay {
-    let day = 1
     private let input: String
     
     init() {

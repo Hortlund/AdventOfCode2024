@@ -8,11 +8,13 @@
 import Foundation
 
 func runDay(_ dayNumber: Int) {
-    var puzzleDay: PuzzleDay
+    var puzzleDay: any PuzzleDay
     
     switch dayNumber {
     case 1:
         puzzleDay = Day1()
+    case 2:
+        puzzleDay = Day2()
     default:
         print("Day \(dayNumber) not implemented yet.")
         return

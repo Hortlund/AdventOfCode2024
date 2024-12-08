@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D40A24A0-4E7C-48C2-829E-3406B74CCA3F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8D6763F-1D44-4760-B9C9-8C09CE361135"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdventOfCode2024/Day1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "Day1"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D8D6763F-1D44-4760-B9C9-8C09CE361135 - c3f7dd061725365c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2024.Day1.deinit"
+                  moduleName = "AdventOfCode2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hortlund/Documents/git/AdventOfCode2024/AdventOfCode2024/Day1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "D8D6763F-1D44-4760-B9C9-8C09CE361135 - cb80ec0f2ee75c73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdventOfCode2024.Day1.__deallocating_deinit"
+                  moduleName = "AdventOfCode2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hortlund/Documents/git/AdventOfCode2024/AdventOfCode2024/Day1.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
